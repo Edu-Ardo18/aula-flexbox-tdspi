@@ -21,6 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header img{
@@ -54,11 +55,14 @@ nav ul li a:hover{
 main{
     flex-grow: 1;
     display: flex;
+    flex-wrap: wrap;
 }
 
 section{
     border: 2px solid black;
     flex-grow: 1;
+    flex: 1 1 300px;
+    
 }
 
 section h2{
@@ -66,11 +70,28 @@ section h2{
 }
 
 .masc{
+    padding: 20px;
+}
+
+.masc img{
+    max-width: 100%;
+}
+
+.masc{
     background-color: lemonchiffon;
+}
+
+.masc h2{
+    margin-bottom: 15px;
+}
+
+.masc p{
+    margin: 10px 0px;
 }
 
 .fem{
     background-color: lemonchiffon;
+    padding: 20px;
 }
 
 .inf{
@@ -86,5 +107,38 @@ footer{
 }
 
 footer p{
+    color: black;
+}
+
+article>h1{
+    text-align: center;
+}
+
+article>header>h1{
+    text-align: center;
+    padding: 100px;
+
+}
+
+article>p{
+    padding: 10px;
+    text-align: justify;
+}
+
+article>footer>p{
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+}
+
+footer{
+    background-color: snow;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>footer{
     color: black;
 }
