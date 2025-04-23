@@ -1,0 +1,90 @@
+/* sempre quando iniciar um projeto deve fazer o reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /*border: 1px solid black;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    min-height: 120px;
+    width: 100%;
+    padding: 0px 40px;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 80px;
+}
+
+nav{
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    color: lemonchiffon;
+    background-color: black;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+section{
+    border: 2px solid black;
+    flex-grow: 1;
+}
+
+section h2{
+    text-align: center;
+}
+
+.masc{
+    background-color: lemonchiffon;
+}
+
+.fem{
+    background-color: lemonchiffon;
+}
+
+.inf{
+    background-color: lemonchiffon;
+}
+
+footer{
+    background-color: lemonchiffon;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: black;
+}
